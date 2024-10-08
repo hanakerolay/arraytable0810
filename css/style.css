@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+
+th,td{
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: pink; /* Define a cor de fundo rosa */
+    color: rgb(5, 5, 5);           /* Cor do texto */
+    width: 30%;
+}
+
+.btn-custom:hover {
+    background-color:rgb(238, 90, 181); /* Cor mais escura para o hover */
+}
+
+.btn-secondary{
+    width: 30%;
+}
+
+th:nth-child(1) { width: 50%; } /* 50% para a coluna 'Nome' */
+  th:nth-child(2) { width: 20%; } /* 25% para a coluna 'Data de Nascimento' */
+  th:nth-child(3) { width: 30%; } /* 25% para a coluna 'Curso' */
